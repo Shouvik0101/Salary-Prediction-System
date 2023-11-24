@@ -64,6 +64,7 @@ try:
     X=load_csv.iloc[:,:-1]
     Y=load_csv.iloc[:,-1]
     percent_train=float(input("How much percent data you want to keep for train(between 0 to 10): "))
+    print("our dataset started with learning and training")
     X_TRAIN,X_TEST,Y_TRAIN,Y_TEST=train_test_split(X,Y,test_size=percent_train)
     print("Our data has been trined")
     print("Creating Linear Regression model")
