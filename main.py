@@ -113,10 +113,10 @@ try:
     print(new_target)
 except FileNotFoundError:
     print("No CSV file found")
-    print("Our model has does not learned, trained and predicting new target data successfully")
+    print("Our model does not learned, trained and predicting new target data successfully")
 except Exception as exp:
     print("Other issue ",exp)
-    print("Our model has does not learned, trained and predicting new target data successfully")
+    print("Our model does not learned, trained and predicting new target data successfully")
 else:
     print("******************************************************************************")
     print("* Our model has learned, trained and predicting new target data successfully *")
